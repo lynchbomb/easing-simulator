@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "broccoli-funnel": "^1.1.0",
+    "broccoli-merge-trees": "^1.2.1",
+    "broccoli-rollup": "^1.0.3",
+    "broccoli-typescript-compiler": "^1.0.1",
+    "ember-cli": "^2.11.0",
+    "rollup-plugin-buble": "^0.15.0",
+    "tslint": "next",
+    "typescript": "^2.1.6"
+  },
+  "scripts": {
+    "tsc": "tsc -p . && tsc -p src/",
+    "build": "ember build",
+    "start": "ember serve"
+  },
+  "name": "easing-simulator",
+  "version": "1.0.0",
+  "description": "easing simulator",
+  "main": "dist/index.js",
+  "author": "Marc Lynch <lynchmarc2@gmail.com>",
+  "license": "MIT"
+}

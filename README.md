@@ -1,1 +1,1 @@
-# easing-simulator
+# Easing Simulator
